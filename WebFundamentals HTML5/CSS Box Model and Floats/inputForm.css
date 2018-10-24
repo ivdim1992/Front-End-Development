@@ -1,0 +1,67 @@
+@import url("https://use.fontawesome.com/releases/v5.3.1/css/all.css");
+
+.login {
+    background: #F9F9F9;
+    width: 7%;
+    padding: 5px 13px;
+    border: 1px solid black;
+    border-radius: 4px;
+    position: absolute;
+    left: 76px;
+    top: 52px;
+}
+form{
+    border: 1px solid black;
+    width: 26%;
+    margin: 4rem;
+    height: 221px;
+    background-color: #F9F9F9;
+}
+label {
+    position: relative;
+    top: 20px;
+    left: 22px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    display: block;
+    width: 70%;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    margin: 21px;
+    padding: 0.4rem 0 2px 2rem;
+    outline: none;
+}
+input[type="password"] {
+    display: block;
+    width: 70%;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    margin: 21px;
+    padding: 0.4rem 0 2px 2rem;
+    outline: none;
+}
+input[type="submit"]{
+    position: relative;
+    left: 22px;
+
+}
+i:first-of-type {
+    position: absolute;
+    top: 116px;
+    left: 108px;
+    font-size: 14px;
+}
+i:last-of-type{
+    position: absolute;
+    top: 202px;
+    font-size: 14px;
+    left: 106px;
+}
+input[type="text"]:hover {
+    border: 1px solid green;
+}
+input[type="password"]:hover {
+    border: 1px solid green;
+}

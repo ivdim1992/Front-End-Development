@@ -1,0 +1,9 @@
+.card {
+    max-width: 16rem;
+    box-shadow: 0 0 1rem 0;
+    margin: 1rem 0 0 1rem;
+    display: inline-block;
+}
+.card-img-top {
+    max-height: 14rem;
+}

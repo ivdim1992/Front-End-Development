@@ -1,0 +1,49 @@
+@import url("https://use.fontawesome.com/releases/v5.3.1/css/all.css");
+body {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+div:nth-child(1) {
+    background-image: linear-gradient(to right, #195C9D, #2E969F, #43CDA2);
+}
+
+div:nth-child(2) {
+    background-image: linear-gradient(to right, #A93477, #BD5C42, #D28114);
+}
+
+.viewport {
+    width: 100vw;
+    height: 50vh;
+}
+
+img {
+    height: 25rem;
+    position: absolute;
+    top: 55%;
+    left: 39%;
+}
+div:nth-child(1) img{
+    height: 12rem;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div:nth-child(1) i {
+    position: relative;
+    top: 19.5rem;
+    left: 47.5rem;
+    color: white;
+    font-size: 1.1rem;
+}
+div:nth-child(2) i {
+    position: relative;
+    top: 26rem;
+    left: 46rem;
+    color: white;
+    font-size: 1.1rem;
+}

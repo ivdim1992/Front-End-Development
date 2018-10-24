@@ -1,0 +1,20 @@
+@media screen and (min-width: 600px){
+    .mq-width:after {
+        display: inline-block;
+        content: 'Viewport width is larger than 600px';
+        color: green;
+    }
+
+    .mq-height:after {
+        display: inline-block;
+        content: 'Viewport height is larger than 600px';
+        color: green;
+    }
+
+    .mq-ar:after {
+        display: inline-block;
+        content: 'Aspect Ratio is larger than 8/5';
+        color: green;
+    }
+
+}
