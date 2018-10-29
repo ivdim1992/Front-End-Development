@@ -1,0 +1,39 @@
+.site-footer {
+    background: white;
+    margin-top:auto;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .icons {
+    font-size: 1.5rem;
+    letter-spacing: 0.7rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content .icons div {
+    margin-right:  4.5rem;
+}
+.content .icons a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.text p {
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.text span {
+    color: black;
+    font-style: italic;
+}

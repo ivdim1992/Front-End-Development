@@ -1,0 +1,39 @@
+.site-banner {
+    margin: 0 0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10rem 0;
+    position: relative;
+    background-image: url("../qingbao-meng-330658-unsplash.jpg");
+    box-shadow: 0 0 1rem 0 rgba(0,0,0,0.5) inset;
+}
+.site-banner:after {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0; bottom: 0; right: 0; left: 0;
+    background: rgba(255,255,255,0.2);
+    z-index: 1;
+}
+.site-banner h1,
+.site-banner p {
+    text-align: center;
+    flex-basis: 100%;
+    color: #f7f7f7;
+    margin: 0;
+    position: relative;
+    z-index: 2;
+    text-shadow: 0 0 1rem rgba(28, 37, 28, 1),0 0 3rem rgba(28, 37, 28, 0.8);
+}
+.site-banner h1 {
+    text-transform: capitalize;
+
+}
+.site-banner p {
+    padding-top: 0.5rem;
+    font-style: italic;
+    text-decoration: overline;
+    font-size: 1.1rem;
+}

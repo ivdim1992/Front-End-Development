@@ -1,0 +1,24 @@
+.home {
+    padding: 2rem;
+    background: #f0f0f0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    background: #FFF;
+    overflow: hidden;
+    max-width: 23rem;
+    box-shadow: 0 0.5rem 0.5rem 0 rgba(0,0,0,0.5);
+}
+
+.card .content {
+    padding: 2rem;
+}
+
+.card .content h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin:  0 0 0.4rem 0;
+}

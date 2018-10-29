@@ -1,0 +1,64 @@
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+nav ul ul {
+    display: none;
+}
+nav li {
+    list-style: none outside;
+}
+
+nav > ul {
+    display: flex;
+}
+
+nav a:hover {
+    color: #62994c;
+}
+nav a {
+    display: block;
+    padding: 0.5rem 1.5rem;
+    text-decoration: none;
+    color: #000000;
+}
+
+nav li {
+    position: relative;
+
+}
+
+nav li:hover > ul {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 2000;
+    background: white;
+    width: 13rem;
+    box-shadow: 0 0.5rem 0.5rem 0 rgba(0,0,0,0.5);
+
+}
+nav li:hover > ul li {
+    padding-bottom: 0.2rem;
+}
+nav li:hover > ul li:hover {
+    background: #f0f0f0;
+}
+nav li:hover > ul a {
+    display: block;
+}
+
+nav li.inner-menu a {
+    display: flex;
+    align-items: center;
+}
+nav li.inner-menu > a:after {
+    display: block;
+    content: '\f0d7';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-left: 0.4em;
+}
+
+
