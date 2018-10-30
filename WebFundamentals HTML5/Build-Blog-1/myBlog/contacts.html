@@ -3,4 +3,26 @@ layout: site
 title: Contacts
 permalink: /contacts/
 ---
-<p>This is Contacts</p>
+<section class="contact-us">
+    <form action="#" method="get">
+        <div class="header">
+            <h3>Contact Us!</h3>
+            <p>Say Hello! Or whatever you want!</p>
+        </div>
+        <div id="logo" >
+            <i class="fas fa-envelope-open"></i>
+        </div>
+        <div class="input-boxes">
+            <input name="name" type="text"
+                   placeholder="Name" id="name" required/>
+
+            <input name="email" type="email"
+                   placeholder="Email" id="email" required/>
+
+            <textarea name="text" placeholder="Message"></textarea>
+            <input type="submit" value="Send" class="button" />
+        </div>
+
+
+    </form>
+</section>

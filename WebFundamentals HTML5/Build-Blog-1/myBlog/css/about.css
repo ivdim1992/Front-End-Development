@@ -1,0 +1,55 @@
+.content-about {
+    background: #f8f3f3;
+}
+
+.content-about .top-part{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-about .top-part h2 {
+    border-bottom: 2px solid black;
+    color: white;
+    text-shadow: 0 0.1rem 0.6rem rgba(0,0,0,1);
+    letter-spacing: 0.5rem;
+}
+.content-about .top-part p {
+    max-width: 30rem;
+    text-align: center;
+    line-height: 2rem;
+}
+
+/*
+TEAM CONTENT GOES DOWN HERE
+*/
+
+
+.content-about .team h3{
+    text-align: center;
+}
+
+.content-about .team .people {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.content-about .team .people .avatar{
+    position: relative;
+    width: 18rem;
+    overflow: hidden;
+    border-radius: 50%;
+
+}
+
+
+.content-about .team .people span {
+    display: block;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.content-about .team .people span:nth-child(2) {
+    font-weight: bold;
+}

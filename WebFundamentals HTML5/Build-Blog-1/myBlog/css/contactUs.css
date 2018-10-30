@@ -1,0 +1,61 @@
+
+.contact-us {
+    flex-wrap: wrap;
+    border: 3px solid #0864089e;
+    margin: 5rem 4rem;
+    border-radius: 2rem;
+    box-shadow: 0.5rem 0.9rem 0.9rem rgba(30, 84, 57, 0.95);
+}
+
+.contact-us > form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact-us .header {
+    text-align: center;
+    margin-top: 2rem;
+}
+.contact-us .header h3,
+.contact-us .header p {
+    margin: 0;
+}
+.contact-us .header p {
+
+}
+
+#logo {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    margin: 1rem 0;
+    color: #0864089e;
+}
+
+.input-boxes {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.input-boxes input,
+.input-boxes textarea {
+    border-color: #0864089e;
+    margin-bottom: 3rem;
+    width: 34rem;
+    padding: 0.4rem;
+    border-radius: 1rem;
+    outline: none;
+    flex: 1 0 auto;
+}
+
+.input-boxes input:last-of-type {
+    background: rgb(30, 84, 57);
+    color: white;
+
+}
+.input-boxes input:last-of-type:hover {
+    pointer-events: auto;
+}
